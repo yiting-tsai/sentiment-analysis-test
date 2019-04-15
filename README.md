@@ -1,9 +1,9 @@
 # sentiment-analysis-test
 
 - [sentiment-analysis-test](#sentiment-analysis-test)
-  - [🎯 Goals](#%F0%9F%8E%AF-goals)
-  - [📖 Rules](#%F0%9F%93%96-rules)
-  - [👩‍💻 What to do](#%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB-what-to-do)
+  - [🎯 Goals](#user-content--goals)
+  - [📖 Rules](#user-content--rules)
+  - [👩‍💻 What to do](#user-content--what-to-do)
 
 ## 🎯 Goals
 
