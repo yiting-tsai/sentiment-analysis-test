@@ -8,7 +8,9 @@
 
 ## 🎯 Goals
 
-Train a multilingual text classifier that predicts the sentiment polarity of a given text.
+We want a multilingual text classifier that predicts the sentiment polarity of a given text.
+Build two models that satisfy this task and choose the best one.
+Please explain in detail each choice you made when building your models and how you choose the best one.
 
 Possible sentiments:
 * `positive`
