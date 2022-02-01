@@ -19,16 +19,16 @@
 ## 📚 Methodology
 1. Understand the goal - multi-class classification on user-generated short comments in multiple languages
 2. Understand the data - user-generated short comments in various lengths and in 17+ langugages
-  - 👐 *please refer to data analytic notebook in `notebook/analytics/data_analytics.ipynb` for more details*
+    - 👐 *please refer to data analytic notebook in `notebook/analytics/data_analytics.ipynb` for more details*
 3. Understand the literature - multilingual embeddings (mBERT, XLM, XLM-RoBERTa, LASER, etc)
 4. Modeling - two models : **XLM-R** (transfer learning) & **LASER + neural networks** (sentence embedding + classification model)
-  - build the model 
-    1. choose `softmax` as activation on final layer for multi-class classification, 
-    2. choose ideal optimizer Adam, computationally efficient and handling well sparse grad on noisy problems
-    3. choose metrics accuracy, weighted f1 and Matthew correlation coefficients
-  - set callbacks like early stopping to stop the model training if validation loss increases after 3 epochs in order to prevent overfitting on training data
-  - efficient training on accelerators GPU and TPU on kaggle notebook
-  - 👐 *please refer to individual train notebook/script of two models for more details*
+    - build the model 
+    - choose `softmax` as activation on final layer for multi-class classification, 
+    - choose ideal optimizer Adam, computationally efficient and handling well sparse grad on noisy problems
+    - choose metrics accuracy, weighted f1 and Matthew correlation coefficients
+    - set callbacks like early stopping to stop the model training if validation loss increases after 3 epochs in order to prevent overfitting on training data
+    - efficient training on accelerators GPU and TPU on kaggle notebook
+    - 👐 *please refer to individual train notebook/script of two models for more details*
 5. Model analysis - black-box analysis on the performance resutls of the model
   - additional baseline model for comparison: zero-shot classification of XLM-R
     1. acc 0.52952, F1 0.4567419027211373, MCC 0.3399870617694973
