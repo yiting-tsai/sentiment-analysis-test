@@ -20,7 +20,7 @@
 1. Understand the goal - multi-class classification on user-generated short comments in multiple languages
 2. Understand the data - user-generated short comments in various lengths and in 17+ langugages
     - 👐 *please refer to data analytic notebook in `notebook/analytics/data_analytics.ipynb` for more details*
-3. Understand the literature - multilingual embeddings (mBERT, XLM, XLM-RoBERTa, LASER, etc)
+3. Understand the literature - multilingual embeddings (mBERT, XLM, XLM-RoBERTa, LASER, etc) via reading survey papers (ie [survey paper](https://arxiv.org/abs/2107.00676))
 4. Modeling - two models : **XLM-R** (transfer learning) & **LASER + neural networks** (sentence embedding + classification model)
     - build the model 
     - choose `softmax` as activation on final layer for multi-class classification, 
@@ -51,4 +51,4 @@
 ### 👓 Additional reading
 1. XLM-R [paper](https://arxiv.org/abs/1911.02116) [FacebookReseach blog](https://ai.facebook.com/blog/-xlm-r-state-of-the-art-cross-lingual-understanding-through-self-supervision/)
 2. LASER [repo](https://github.com/facebookresearch/LASER)
-3. Multilingual word embeddings [HuggingFace](https://huggingface.co/docs/transformers/multilingual)
+3. Multilingual word embeddings [HuggingFace](https://huggingface.co/docs/transformers/multilingual) [A Primer on Pretrained Multilingual Language Models](https://arxiv.org/abs/2107.00676)
