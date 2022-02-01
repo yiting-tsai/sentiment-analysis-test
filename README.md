@@ -8,12 +8,12 @@
 ## ✋ How to get inference ?
 1. clone this repo `git clone https://github.com/yiting-tsai/sentiment-analysis-test.git`
 2. get model weights from [google drive download link](https://drive.google.com/file/d/1zlsLILAYa_nekjEQ0VqstZ_2nX2iOqTI/view?usp=sharing) (logged in google account required)
-  - because the model weight file exceeds 1GB and Git LFS doesn't support pushing LFS objects to public forks [issue src link](https://github.com/git-lfs/git-lfs/issues/1906#issuecomment-276602035)
+  * because the model weight file exceeds 1GB and Git LFS doesn't support pushing LFS objects to public forks [issue src link](https://github.com/git-lfs/git-lfs/issues/1906#issuecomment-276602035)
 3. go to this repo and place the downloaded `tf_model.h5` to the folder of this repo `./model_weights_config/xlmr-model/`
 4. create a virtual environment `virtualenv myEnv` and active `source myEnv/bin/activate`
 5. install necessary python packages `pip install -r requirements`
 6. run actual inference script `python xlmr-inference.py`
-  - apprx. 10 mins to finish if on CPU
+  * apprx. 10 mins to finish if on CPU
 7. inference results are saved in `predictions.csv`
 
 
