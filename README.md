@@ -31,7 +31,7 @@
     - 👐 *please refer to individual train notebook/script of two models for more details*
 5. Model analysis - black-box analysis on the performance resutls of the model
   - additional baseline model for comparison: zero-shot classification of XLM-R
-    1. acc 0.52952, F1 0.4567419027211373, MCC 0.3399870617694973
+    1. acc 0.52, F1 0.456, MCC 0.339
     2. both XLM-R and LASER+NN perform better than baseline model
   - **XLM-R**
     1. accurarcy reachs more than 80% within only 10 epochs
