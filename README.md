@@ -38,7 +38,7 @@
     2. posssible improvement:
       - add more layers to the down-stream task (I only use one layer)
       - increase data size
-      - add text preprocessing to remove stopwords, punctuations or unnecessary tokens like @username or #hashtags (also removing @username for anonymization / privacy concern)
+      - add text preprocessing to remove stopwords, punctuations or unnecessary tokens like `@username` or `#hashtag` (also removing `@username` for anonymization / privacy concern)
     3. XLM-R tokenizes with SentencePiece (language independent and data driven), which could be one of driven factors to its performance 
   - **LASER + NN**
     1. accurarcy reachs 80% after 50 epochs
