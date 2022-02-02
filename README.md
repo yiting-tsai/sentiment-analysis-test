@@ -1,8 +1,9 @@
 - Synthesio technical test
   - [✋ How to get inference ?](#user-content--how-to-get-inference)
   - [📚 Methodology](#user-content--methodology)
-  - [🌳 Repo tree](#user-content--repo-tree)
   - [👓 Addition reading](#user-content--additional-reading)
+  - [🌳 Repo tree](#user-content--repo-tree)
+
 
 
 ## ✋ How to get inference ?
@@ -48,7 +49,47 @@
       - train more epochs
       - increase data size
 
+
 ### 👓 Additional reading
 1. XLM-R [paper](https://arxiv.org/abs/1911.02116)  /  [FacebookReseach blog](https://ai.facebook.com/blog/-xlm-r-state-of-the-art-cross-lingual-understanding-through-self-supervision/)
 2. LASER [repo](https://github.com/facebookresearch/LASER)
 3. Multilingual word embeddings [HuggingFace](https://huggingface.co/docs/transformers/multilingual)  /  [A Primer on Pretrained Multilingual Language Models](https://arxiv.org/abs/2107.00676)
+
+
+## 🌳 Repo tree
+├── archive
+├── data
+│   ├── test.csv
+│   └── train.csv
+├── LICENSE
+├── model_weights_config
+│   ├── laser-dnn-model
+│   │   ├── laser_model.h5
+│   │   ├── test_embedding.npy
+│   │   └── train_embedding.npy
+│   └── xlmr-model
+│       ├── config.json
+│       └── softmax.pickle
+├── notebook
+│   ├── analytics
+│   │   ├── data
+│   │   │   ├── analyzed_train.csv
+│   │   │   └── lang_detect.csv
+│   │   ├── data_analytics.ipynb
+│   │   ├── model
+│   │   │   ├── laser_dnn_history.json
+│   │   │   └── xlmr_history.json
+│   │   └── model_analytics.ipynb
+│   ├── inference
+│   │   └── xlmr-inferenc_.ipynb
+│   └── train
+│       ├── laser-DNN_train_kaggle.ipynb
+│       └── xlmr_train_kaggle.ipynb
+├── predictions.csv
+├── README.md
+├── requirements.txt
+├── script
+│   ├── train_laser-DNN_kaggle.py
+│   └── train_xlmr_kaggle.py
+├── test-instructions.md
+└── xlmr-inference.py
