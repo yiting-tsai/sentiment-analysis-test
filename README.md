@@ -54,7 +54,7 @@
 ### 👓 Additional reading
 1. XLM-R [paper](https://arxiv.org/abs/1911.02116)  /  [FacebookReseach blog](https://ai.facebook.com/blog/-xlm-r-state-of-the-art-cross-lingual-understanding-through-self-supervision/)
 2. LASER [repo](https://github.com/facebookresearch/LASER)
-3. Multilingual word embeddings [HuggingFace](https://huggingface.co/docs/transformers/multilingual)  /  [A Primer on Pretrained Multilingual Language Models](https://arxiv.org/abs/2107.00676)
+3. Multilingual word embeddings [HuggingFace](https://huggingface.co/docs/transformers/multilingual)  /  [A Primer on Pretrained Multilingual Language Models](https://arxiv.org/abs/2107.00676)  /  [Unsupervised Cross-lingual Representation Learning at Scale](https://arxiv.org/abs/1911.02116)
 
 
 ## 🌳 Repo tree
