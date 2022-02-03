@@ -13,8 +13,8 @@
 3. go to this repo and place the downloaded `tf_model.h5` to the folder of this repo `./model_weights_config/xlmr-model/`
 4. create a virtual environment `virtualenv myEnv` and active `source myEnv/bin/activate`
 5. install necessary python packages `pip install -r requirements`
-6. run actual inference script `python xlmr-inference.py` (apprx. 10 mins to finish if on CPU)
-7. inference results are saved in `predictions.csv`
+6. run on terminal actual inference script `python xlmr-inference.py` (apprx. 10 mins to finish if on CPU)
+7. inference results are saved in `predictions.csv` in the repo
 
 
 ## 📚 Methodology
