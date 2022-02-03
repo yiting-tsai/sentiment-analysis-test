@@ -45,7 +45,8 @@
     1. accurarcy reachs 80% after 50 epochs
     2. LASER performance degrades for shorter sentence because it was trained on sentences of at least 4 words [ref](https://github.com/facebookresearch/LASER/issues/44), and 15% of texts in training data is less than 25 characters, rather short sentence
     3. possible improvement:
-      - specifying on language when tokenizing for LASER with detected language info
+      - specify on language when tokenizing for LASER with detected language info
+      - apply batch normalization between layers in the NN
       - train more epochs
       - increase data size
 
